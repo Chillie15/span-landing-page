@@ -1,0 +1,161 @@
+body {
+  font-family: "Epilogue", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+#hero-section {
+  padding-top: 2.5rem;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 800;
+  font-size: 1.875rem;
+  color: #212121;
+}
+
+.nav-link,
+.dropdown-item,
+.btn-login,
+.btn-register {
+  color: #656565;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #656565;
+}
+
+.btn-link:hover,
+.nav-link:hover {
+  color: #212121;
+}
+
+.dropdown-menu span {
+  margin-right: 14px;
+}
+
+.dropdown-menu img {
+  width: 16px;
+}
+
+/* Hero Section */
+
+.hero-section-img {
+  width: 23.75rem;
+}
+
+.title-column {
+  padding-top: 2.5rem;
+}
+
+.desktop-img-column {
+  text-align: center;
+}
+
+#hero-section h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  width: 75%;
+  line-height: 1;
+}
+
+#hero-section p {
+  color: #656565;
+  font-size: 1.125rem;
+  font-weight: 500;
+  width: 70%;
+  line-height: 1.5;
+  margin: 2.5rem 0;
+}
+
+.btn-learn {
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.mobile-img-column {
+  display: none;
+}
+
+.brand-client img {
+  margin-right: 1.875rem;
+}
+
+@media screen and (max-width: 990px) {
+  #hero-section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  #hero-section h1 {
+    width: 100%;
+  }
+
+  #hero-section p {
+    width: 100%;
+  }
+
+  .button-login-register {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .btn-register {
+    background-color: #212529;
+    color: white;
+  }
+
+  .desktop-img-column {
+    display: none;
+  }
+
+  .mobile-img-column {
+    display: contents;
+    text-align: center;
+  }
+
+  .mobile-img-column img {
+    width: 100%;
+  }
+
+  .title-column {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .desktop-img-column {
+    display: none;
+  }
+
+  .mobile-img-column {
+    display: contents;
+    text-align: center;
+  }
+
+  .mobile-img-column img {
+    width: 100%;
+  }
+
+  .title-column {
+    text-align: center;
+  }
+
+  #hero-section h1 {
+    font-size: 48px;
+    width: 100%;
+  }
+
+  #hero-section p {
+    width: 100%;
+  }
+
+  .brand-client img {
+    width: 16%;
+  }
+}

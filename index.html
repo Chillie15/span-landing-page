@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand me-5" href="#">span</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">span</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item dropdown me-3">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Features </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"><span><img src="images/icon-todo.svg" alt=""></span>Todo List</a></li>
+                    <li><a class="dropdown-item" href="#"><span><img src="images/icon-calendar.svg" alt=""></span>Calendar</a></li>
+                    <li><a class="dropdown-item" href="#"><span><img src="images/icon-reminders.svg" alt=""></span>Reminders</a></li>
+                    <li><a class="dropdown-item" href="#"><span><img src="images/icon-planning.svg" alt=""></span>Planning</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown me-3">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Company </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">History</a></li>
+                    <li><a class="dropdown-item" href="#">Our Team</a></li>
+                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item me-3"><a class="nav-link" href="#">Careers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+              </ul>
+              <div class="button-login-register">
+                <a class="btn btn-link me-4 btn-login" href="#">Login</a>
+                <a class="btn btn-outline-dark btn-register" href="#">Register</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero-section">
+        <div class="container">
+          <div class="row">
+            <div class="col col-lg-6 mobile-img-column">
+              <img src="images/image-hero-mobile.png" alt="" />
+            </div>
+            <div class="col col-lg-6 title-column">
+              <h1>Make remote work</h1>
+              <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+              <a class="btn btn-dark btn-lg btn-learn" href="#">Learn More</a>
+              <div class="brand-client">
+                <img src="images/client-databiz.svg" alt="" />
+                <img src="images/client-audiophile.svg" alt="" />
+                <img src="images/client-meet.svg" alt="" />
+                <img src="images/client-maker.svg" alt="" />
+              </div>
+            </div>
+            <div class="col col-lg-6 desktop-img-column">
+              <img class="hero-section-img" src="images/image-hero-desktop.png" alt="hero-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
